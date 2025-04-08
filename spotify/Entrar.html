@@ -1,0 +1,64 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrar no Spotify</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <style>
+        .login-container {
+            background-color: #121212;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .btn-custom {
+            border-radius: 15px;
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            color: #b3b3b3;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body class="d-flex align-items-center justify-content-center min-vh-100">
+    <div class="login-container text-center">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/imagens/spotify.svg" width="142"/>
+            </a>
+            <button class="navbar-toggler"
+                data-toggler="collapse"
+                data-target="#nav-principal">
+            </button>
+        </div>
+        <h1 class="h1 mb-">Entrar no Spotify</h1>
+        <div class="d-grid gap-2">
+            <button class="btn btn-danger btn-custom"><i class="fab fa-google mr-1"></i>Continuar com o Google</button>
+            <button class="btn btn-primary btn-custom"><i class="fab fa-facebook-f mr-2"></i>Continuar com o Facebook</button>
+            <button class="btn btn-dark btn-custom"><i class="fas fa-phone-alt mr-2"></i>Continuar com um número de telefone</button>
+        </div>
+        <hr role="presentation" class="sc-hRDKVd bDmoap">
+        <div class="mt-5">
+            <label for="email" class="sr-only">E-mail ou nome de usuário</label>
+            <input type="text" id="email" class="form-control mb-3 bg-dark btn-custom btn btn-branco" placeholder="E-mail ou nome de usuário">
+        </div>
+        <button class="btn btn-success btn-custom">Continuar</button>
+        <div class="mt-4">
+            <p class="mb-0 text-white">Não tem uma conta? <a href="#" class="text-white">Inscrever-se no Spotify</a></p>
+        </div>
+    </div>
+    <footer class="footer">
+         <a href="#" class="text-white">Política de Privacidade</a> e aos <a href="#" class="text-white">Termos de Serviço</a> do Google.
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
